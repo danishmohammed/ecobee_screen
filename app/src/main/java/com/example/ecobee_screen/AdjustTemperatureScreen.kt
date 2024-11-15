@@ -29,7 +29,7 @@ fun AdjustTemperatureScreen(
     // The color for the background of the temp display
     val backColor = when (mode) {
         "Heat" -> orange
-        "Cool" -> Color.Cyan
+        "Cool" -> Color.Blue
         else -> Color.Black
     }
 
